@@ -8,6 +8,14 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+.principal{
+    background-image: url("../img/main.jpg");
+}
+h1, h2{
+    color: white
+}
+
 .card{
     border: 0;
 }
