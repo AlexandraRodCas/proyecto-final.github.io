@@ -12,6 +12,7 @@ body {
 .principal {
     background-image: url("../img/main.jpg");
     background-size: cover;
+    background-position: center center;
 }
 
 h1,
@@ -25,12 +26,26 @@ h2 {
     box-shadow: 0 0 1rem 1px rgba(0, 0, 0, 0.5);
 }
 
+.principal a{
+    text-decoration: none;
+}
+
+.coleccion:hover{
+    color:#ffef0f;
+}
+
 .btn-danger {
     background-color: rgb(206, 14, 14);
+    font-size: 1.2rem;
 }
 
 .card {
     border: 0;
+}
+
+.bordes {
+    border: 1px solid #000;
+    box-sizing: border-box;
 }
 
 .text-fit {
@@ -41,14 +56,19 @@ h2 {
 .beneficios img{
     width: 80%;
 }
+
+.altura-beneficios{
+    height: 500px;
+}
+
 .artesanalmente {
     font-size: calc(1.3rem + 2.1vw);
     font-weight: 300;
     line-height: 1.2;
 }
 
-main.item {
-    width: 100%
+.altura{
+    height: 600px;
 }
 
 .collar-contacto {
