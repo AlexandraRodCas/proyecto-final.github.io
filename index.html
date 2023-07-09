@@ -21,7 +21,7 @@
 <body class="text-center">
 
   <!--Aquí está el header-->
-  <header>
+  <header class="menu border-bottom border-dark pb-5">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <img src="./img/logo.png" alt="HIRO">
@@ -30,7 +30,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 h3">
             <li class="nav-item">
               <a class="nav-link active" href="#principal" aria-current="page" href="#">Inicio</a>
             </li>
@@ -57,7 +57,7 @@
   <!--Aquí está el main-->
   <main class="principal">
     <a href="principal"></a>
-    <div class="container pt-5 pb-5 mt-5 mb-5">
+    <div class="container pt-5 pb-5 mt-2 mb-5">
       <div class="row pt-5 pb-5 mt-5 mb-5">
         <div class="item puesto pt-5 pb-5 mt-5 mb-5">
           <h1 class="display-1">El detalle que distingue</h1>
@@ -72,30 +72,30 @@
     <a name="productos"></a>
     <div class="container">
       <div class="row">
-        <div class="item col-12 col-md-4 p-3">
+        <div class="item col-12 col-md-4 ">
           <div class="card">
             <!--Cambia la imagen-->
-            <img src="./img/aretes.png" class=" card-img-top img-fluid" alt="Aretes">
+            <img src="./img/aretes.png" class="card-img-top img-fluid rounded" alt="Aretes">
             <div class="card-body">
-              <h5 class="card-title">Aretes</h5>
+              <h5 class="card-title h1 mt-3 mb-3">Aretes</h5>
             </div>
           </div>
         </div>
-        <div class="item col-12 col-md-4 p-3">
+        <div class="item col-12 col-md-4">
           <div class="card">
             <!--Cambia la imagen-->
-            <img src="./img/pulsera.png" class="card-img-top img-fluid" alt="Pulseras">
+            <img src="./img/pulsera.png" class="card-img-top img-fluid rounded" alt="Pulseras">
             <div class="card-body">
-              <h5 class="card-title">Pulseras</h5>
+              <h5 class="card-title h1 mt-3 mb-3">Pulseras</h5>
             </div>
           </div>
         </div>
-        <div class="item col-12 col-md-4 p-3">
+        <div class="item col-12 col-md-4">
           <div class="card">
             <!--Cambia la imagen-->
-            <img src="./img/collar.png" class="card-img-top img-fluid" alt="Collares">
+            <img src="./img/collar.png" class="card-img-top img-fluid rounded" alt="Collares">
             <div class="card-body">
-              <h5 class="card-title">Collares</h5>
+              <h5 class="card-title h1 mt-3 mb-3">Collares</h5>
             </div>
           </div>
         </div>
@@ -110,15 +110,15 @@
     <div class="container">
       <div class="row">
         <h3 class="mt-5 mb-5 display-3">¡Lo nuevo!</h3>
-        <div class="card col-12 col-md-4 p-3 offset-md-2 offset-lg-2">
+        <div class="card col-12 col-md-4 offset-md-2 offset-lg-2">
           <!--Aquí pon algo-->
-          <img src="./img/novedad1.png" class="card-img-top img-fluid" alt="card-img-top">
-          <button type="button" class="btn btn-danger col-5 col-md-6 offset-4 offset-md-3 mt-5">¡No te lo pierdas!</button>
+          <img src="./img/novedad1.png" class="card-img-top img-fluid rounded" alt="card-img-top">
+          <button type="button" class="btn btn-danger col-6 col-md-6 offset-3 offset-md-3 mt-5 mb-5">¡No te lo pierdas!</button>
         </div>
-        <div class="card col-12 col-md-4 p-3">
+        <div class="card col-12 col-md-4">
           <!--Aquí pon algo-->
           <img src="./img/novedad2.png" class="card-img-top img-fluid rounded" alt="card-img-top">
-          <button type="button" class="btn btn-danger col-5 col-md-6 offset-4 offset-md-3 mt-5 mb-5">¡Ultimas piezas!</button>
+          <button type="button" class="btn btn-danger col-6 col-md-6 offset-3 offset-md-3 mt-5 mb-5">¡Ultimas piezas!</button>
         </div>
         <span class="border"></span>
       </div>
@@ -134,27 +134,27 @@
     <div class="container">
       <div class="row">
         <div class="item col-12 col-md-4 p-3">
-          <div class="card border">
-            <img src="img/diamante.svg" class="card-img-top img-fluid" alt="card-img-top">
+          <div class="card border border-dark">
+            <img src="img/diamante.svg" class="card-img-top img-fluid mx-auto" alt="card-img-top">
             <div class="card-body">
-              <h5 class="display-2">¡Joyeria que no se mancha!</h5>
+              <h5 class="display-5">¡Joyeria que no se mancha!</h5>
             </div>
           </div>
         </div>
         
         <div class="item col-12 col-md-4 p-3">
-          <div class="card border">
-            <img src="img/brillo.svg" class="card-img-top img-fluid" alt="card-img-top">
+          <div class="card border border-dark">
+            <img src="img/brillo.svg" class="card-img-top img-fluid mx-auto" alt="card-img-top">
             <div class="card-body">
-              <h5 class="display-2">¡Usa tu propio estilo!</h5>
+              <h5 class="display-5">¡Usa tu propio estilo!</h5>
             </div>
           </div>
         </div>
-        <div class="item col-12 col-md-4 p-3">
-          <div class="card border">
-            <img src="img/mano.svg" class="card-img-top img-fluid" alt="card-img-top">
+        <div class="item col-12 col-md-4 p-3 ">
+          <div class="card border border-dark">
+            <img src="img/mano.svg" class="card-img-top img-fluid mx-auto" alt="card-img-top">
             <div class="card-body">
-              <h5 class="display-2">¡Hecha artesanalmente!</h5>
+              <h5 class="artesanalmente">¡Hecha artesanalmente!</h5>
             </div>
           </div>
         </div>
@@ -168,34 +168,33 @@
     <a name="contactanos"></a>
     <div class="container">
       <div class="row">
-        <div class="item col-12 col-md-6">
-          <img src="img/contacto.png" class="collar-contacto" alt="">
+        <div class="item col-10 offset-1 col-md-5 mt-5 mb-4">
+          <img src="img/contacto.png" class="collar-contacto img-fluid" alt="">
         </div>
-        <div class="item col-12 col-md-6">
-          <h3 class="m-5">¡Contactanos!</h3>
+        <div class="border border-dark contacto item col-10 offset-1 col-md-5 mt-md-5">
+          <h3 class="mt-4 mb-4 artesanalmente">¡Contactanos!</h3>
 
           <form action="#" method="POST">
-            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required><br>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="mb-4" required><br>
 
-            <input type="text" id="apellido" name="apellido" placeholder="Apellido" required><br>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido" class="mb-4" required><br>
 
-            <input type="email" id="email" name="email" placeholder="Email" required><br>
+            <input type="email" id="email" name="email" placeholder="Email" class="mb-4" required><br>
         
-            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Mensaje" required></textarea><br>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Comentarios" class="mb-4" required></textarea><br>
         
-            <input type="submit" class="btn btn-dark" value="Enviar">
+            <input type="submit" class="btn btn-dark mb-4" value="Enviar">
           </form>
         </div>
-        <span class="border"></span>
       </div>
     </div>
   </section>
 
   <!--Aquí està el pie-->
-  <footer class="pie">
+  <footer class="pie border-top border-dark mt-5 pt-5">
     <div class="container">
       <div class="row">
-        <div class="item ">
+        <div class="item mb-3 h4">
           <p>HIRO Accesorios @ Derechos reservados</p>
         </div>
       </div>

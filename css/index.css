@@ -1,31 +1,61 @@
 /*Documento CSS*/
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.principal{
+.principal {
     background-image: url("../img/main.jpg");
     background-size: cover;
 }
-h1, h2{
+
+h1,
+h2 {
     color: white
 }
 
-.card{
+.productos img,
+.novedades img,
+.formulario img {
+    box-shadow: 0 0 1rem 1px rgba(0, 0, 0, 0.5);
+}
+
+.btn-danger {
+    background-color: rgb(206, 14, 14);
+}
+
+.card {
     border: 0;
 }
 
-main.item{
+.text-fit {
+    overflow: hidden;
+    font-size: 100%;
+}
+
+.beneficios img{
+    width: 80%;
+}
+.artesanalmente {
+    font-size: calc(1.3rem + 2.1vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+main.item {
     width: 100%
 }
 
-.collar-contacto{
+.collar-contacto {
     height: 600px;
     width: 400px;
+}
+
+.contacto {
+    background-color: #f7f7f7;
 }
